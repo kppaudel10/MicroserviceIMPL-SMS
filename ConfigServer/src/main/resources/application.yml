@@ -1,0 +1,16 @@
+
+server:
+  port: 8167
+spring:
+  application:
+    name: ConfigServer
+
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: /home/kul-java/Desktop/projects/MicroserviceIMPL-SMS/config-profile
+  security:
+    user:
+      name: cloud-r00t
+      password: cloud-s3cr3t
